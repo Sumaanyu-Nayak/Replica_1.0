@@ -1,0 +1,381 @@
+@import url('https://db.onlinewebfonts.com/c/1bc2daddba36ba331fc4fa67828eabdc?family=CircularSpotifyTxT-Med');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "CircularSpotifyTxT-Med";
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+
+.divide {
+    height: 100%;
+    width: 20%;
+    background-color: black;
+}
+
+.right {
+    width: 80%;
+    background-color: #0e0e0e;
+}
+
+
+.bottom {
+    height: 8%;
+    width: 100%;
+    background-color: #181818;
+    position: fixed;
+    bottom: 0;
+    border-top: 0.5px solid #ffffff;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    z-index: 3;
+}
+
+
+
+.companylogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    width: auto;
+    margin: 10px;
+}
+
+.logoName {
+    color: #ffffff;
+    font-family: "CircularSpotifyTxT-Med";
+    font-size: 2em;
+}
+
+.options,
+.options2 {
+    width: auto;
+    height: 25%;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    line-height: 10%;
+}
+
+.img,
+.img2 {
+    width: 90%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.img2 {
+    height: 20%;
+}
+
+.marg {
+    margin-left: 1em;
+    color: #ffffff;
+}
+
+span.marg {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+/* .lib {
+    height: 10%;
+} */
+
+/* .img:focus {
+    background-color: black;
+} */
+
+
+.options [tabindex] {
+    transition: 999s;
+    background: black;
+}
+
+.options:focus-within [tabindex] {
+    transition: 0s;
+    background: rgba(255, 255, 254, 0);
+    /* a little different coloration to make sure we trigger the transition */
+}
+
+.options [tabindex]:focus,
+.options [tabindex].active:focus {
+    background-color: #282828;
+    transition: 0s;
+}
+
+.options .active {
+    background-color: rgb(40, 40, 40);
+    /* a little different coloration to make sure we trigger the transition */
+}
+
+.options2 [tabindex] {
+    transition: 999s;
+    background: black;
+}
+
+.options2:focus-within [tabindex] {
+    transition: 0s;
+    background: rgba(255, 255, 254, 0);
+    /* a little different coloration to make sure we trigger the transition */
+}
+
+.options2 [tabindex]:focus,
+.options2 [tabindex].active:focus {
+    background-color: #282828;
+    transition: 0s;
+}
+
+.options2 .active {
+    background-color: rgb(40, 40, 40);
+    /* a little different coloration to make sure we trigger the transition */
+}
+
+.install {
+    bottom: 7.5%;
+    width: 15%;
+    border: none;
+    background-color: black;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+.install img {
+    height: 30%;
+}
+
+.searchdiv {
+    height: 7%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.arrow {
+    height: 2em;
+    width: 2em;
+    background-color: rgba(44, 44, 44, 0.522);
+    margin: 10px;
+    border-radius: 50%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arr {
+    position: relative;
+    margin-top: 0.3em;
+}
+
+
+
+.searchbar {
+    height: 60%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.searchbardiv {
+    height: 2.5em;
+    width: 50%;
+    background-color: #ffffff;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.searchbar input {
+    height: 2.5em;
+    width: 95%;
+    outline: none;
+    border: none;
+    font-size: medium;
+}
+
+.searchlogo {
+    height: 2.5em;
+    width: 3em;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.yrgene {
+    height: 40%;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.heading {
+    height: 10%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1%;
+    padding: 1em;
+    color: #ffffff;
+}
+
+.boxg {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.boxn {
+    margin-left: 2em;
+    height: 100%;
+    width: 47%;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.yrgenearrow {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 100%;
+    width: 40px;
+    position: fixed;
+    right: 2px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    background-color: #8c67ac;
+    color: white;
+    /* font-size: 40px; */
+    display: flex;
+}
+
+.box2 {
+    background-color: #b95d06;
+}
+
+.fontt,
+.fontt2 {
+    margin: 20px;
+    font-size: 60px;
+}
+
+.fontt2 {
+    font-size: 40px;
+}
+
+.bn {
+    height: 80%;
+}
+
+.bng {
+    margin-top: -2%;
+}
+
+.right2 {
+    width: 78%;
+    background-color: #181818;
+}
+
+.left2 {
+    background-color: #181818;
+}
+
+.left2 img {
+    height: 100%;
+}
+
+.newD1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.newD2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.artSong {
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+.artist {
+    color: #ababab;
+}
+
+.controls,
+.progressbar {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress {
+    height: 5px;
+    width: 100%;
+    background-color: #464646;
+    border-radius: 10px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.line {
+    height: 5px;
+    width: calc(0.79 * 100%);
+    background-color: #c1c1c1;
+    border-radius: 10px;
+    margin-right: 1em;
+}
+
+.progressbar span {
+    color: #9b9b9b;
+}
+
+.end {
+    margin-left: 1em;
+}
+
+.con {
+    height: 100%;
+    margin-left: 5%;
+}

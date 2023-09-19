@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Spark Replica 1</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="divide left" id="left">
+            <div class="companylogo" id="companylogo">
+                <img class="logo" src="assets/logo.jpg" alt="logo">
+            </div>
+            <div class="options" id="options">
+                <div class="img home" id="home" tabindex="1">
+                    <img class="marg" src="assets/home-open.png" alt="Home">
+                    <span class="marg">Home</span>
+                </div>
+                <div class="img search active" id="search" tabindex="2">
+                    <img src="assets/search-open.png" alt="Search" class="marg">
+                    <span class="marg">Search</span>
+                </div>
+                <div class="img library" id="library" tabindex="3">
+                    <img class="marg lib" src="assets/libraryopen.png" alt="Library">
+                    <span class="marg">Library</span>
+                </div>
+            </div>
+            <div class="options2" id="options2">
+                <div class="img2 crPlayLst" id="crPlayLst" tabindex="1">
+                    <img class="marg" src="assets/crplaylist.jpg" alt="Created Playlist">
+                    <span class="marg">Create Playlist</span>
+                </div>
+                <div class="img2 likSong" id="likSong" tabindex="2">
+                    <img class="marg" src="assets/liksong.jpg" alt="Liked Songs">
+                    <span class="marg">Liked Songs</span>
+                </div>
+                <div class="img2 yrEp" id="yrEp" tabindex="3">
+                    <img class="marg" src="assets/yeep.jpg" alt="Your Episodes">
+                    <span class="marg">Your Episodes</span>
+                </div>
+            </div>
+            <div class="bottom install" id="install">
+                <img class="marg" src="assets/install-open.png" alt="Download">
+                <span class="marg">Install App</span>
+            </div>
+        </div>
+        <div class="divide right" id="right">
+            <div class="searchdiv" id="searchdiv">
+                <div class="arrow leftarr activearrow" id="leftarr" tabindex="1"
+                    onclick="document.getElementById('leftarrch').src = 'assets/arrow-head-white.jpg.png';document.getElementById('rightarrch').src = 'assets/arrow-head-left-646464.png';">
+                    <span class="lrt arr"><img id="leftarrch" src="assets/arrow-head-white.jpg.png" alt="arrow"></span>
+                </div>
+                <div class="arrow rightarr" id="rightarr" tabindex="2"
+                    onclick="document.getElementById('rightarrch').src = 'assets/arrow-head-left-white.png';document.getElementById('leftarrch').src = 'assets/arrow-head-646464.png';">
+                    <span class="grt arr"><img id="rightarrch" src="assets/arrow-head-left-646464.png"
+                            alt="arrow"></span>
+                </div>
+                <div class="searchbar" id="searchbar">
+                    <div class="searchlogo" id="searchlogo">
+                        <img src="assets/search-open-black.png" alt="Search">
+                    </div>
+                    <div class="searchbardiv" id="searchbardiv">
+                        <input type="text" placeholder="Artists, songs, or podcasts" id="searchbar">
+                    </div>
+                </div>
+            </div>
+            <div class="yrgene" id="yrgene">
+                <div class="heading" id="heading">
+                    <h1 class="head" id="head">Your top genres</h1>
+                </div>
+                <div class="boxg" id="boxg">
+                    <div class="boxn box1" id="box1"><span class="fontt">Pop</span></div>
+                    <div class="boxn box2" id="box2"><span class="fontt">Hip-Hop</span></div>
+                    <div class="yrgenearrow" id="yrgenearrow">
+                        <img src="assets/yrgenearrow.png" alt="next">
+                    </div>
+                </div>
+            </div>
+            <div class="yrgene" id="yrgene">
+                <div class="heading" id="heading">
+                    <h1 class="head" id="head">Browse all</h1>
+                </div>
+                <div class="boxg bng" id="boxg">
+                    <div class="boxn bn box1" id="box1" style="background-color: #27856a;"><span
+                            class="fontt2">Podcast</span></div>
+                    <div class="boxn bn box2" id="box2" style="background-color: #1e3264;"><span class="fontt2">Made for
+                            you</span></div>
+                    <div class="boxn bn box3" id="box3" style="background-color: #8c67ac;"><span
+                            class="fontt2">Charts</span></div>
+                    <div class="boxn bn box4" id="box4" style="background-color: #e8125c;"><span class="fontt2">New
+                            releases</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="divide bottom" id="bottom">
+            <div class="divide newD1 left2" id="left2">
+                <img src="assets/titanic.jpg" alt="song">
+                <div class="artSong" id="artSong">
+                    <div class="song">My Heart Will Go On</div>
+                    <div class="artist">James Horner</div>
+                </div>
+                <span style="margin-left:20px;">💚</span>
+            </div>
+            <div class="divide newD2 right2" id="right2">
+                <div class="controls" id="controls">
+                    <div class="con shufful" id="shufful"><img src="assets/shfful.png" alt="shuffle"></div>
+                    <div class="con previous" id="previous"><img src="assets/previous.png" alt="previous"></div>
+                    <div id="playP" class="con playP"><img src="assets/playP.png" alt="Play/Pause"></div>
+                    <div class="con next" id="next"><img src="assets/next.png" alt="next"></div>
+                    <div class="con rewind" id="rewind"><img src="assets/repeat-all.png" alt="repeat-all"></div>
+                </div>
+                <div class="progressbar" id="progressbar">
+                    <span class="start">2:11</span>
+
+                    <div class="progress" id="progress">
+                        <div class="line" id="line"></div>
+                    </div>
+                    <span class="end">2:44</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
